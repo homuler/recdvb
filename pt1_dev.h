@@ -70,12 +70,12 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     {   7, CHTYPE_SATELLITE, 1, 0x40f2, "910"},  /* 910ch：ウェザーニュース(WNI)*/
     {   7, CHTYPE_SATELLITE, 1, 0x40f2, "201"},  /* 201ch：スター・チャンネル2 */
     {   7, CHTYPE_SATELLITE, 1, 0x40f2, "202"},  /* 202ch：スター・チャンネル3 */
-    {   9, CHTYPE_SATELLITE, 0, 0x4730, "234"},  /* 234ch：グリーンチャンネル */
+    {   9, CHTYPE_SATELLITE, 0, 0x4730, "245"},  /* 245ch：J SPORTS 4 */
     {   9, CHTYPE_SATELLITE, 1, 0x4731, "242"},  /* 242ch：J SPORTS 1 */
     {   9, CHTYPE_SATELLITE, 2, 0x4732, "243"},  /* 243ch：J SPORTS 2 */
+    {   9, CHTYPE_SATELLITE, 3, 0x4733, "244"},  /* 244ch：J SPORTS 3 */
     {  10, CHTYPE_SATELLITE, 0, 0x4750, "252"},  /* 252ch：IMAGICA BS */
-    {  10, CHTYPE_SATELLITE, 1, 0x4751, "244"},  /* 244ch：J SPORTS 3 */
-    {  10, CHTYPE_SATELLITE, 2, 0x4752, "245"},  /* 245ch：J SPORTS 4 */
+    {  10, CHTYPE_SATELLITE, 2, 0x4752, "234"},  /* 234ch：グリーンチャンネル */
     {  11, CHTYPE_SATELLITE, 0, 0x4770, "251"},  /* 251ch：BS釣りビジョン */
     {  11, CHTYPE_SATELLITE, 1, 0x4771, "255"},  /* 255ch：日本映画専門チャンネル */
     {  11, CHTYPE_SATELLITE, 2, 0x4772, "258"},  /* 258ch：D-Life */
