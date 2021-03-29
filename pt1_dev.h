@@ -48,37 +48,33 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     {   0, CHTYPE_SATELLITE, 0, 0x4010, "151"},  /* 151ch：BS朝日 */
     {   0, CHTYPE_SATELLITE, 1, 0x4011, "161"},  /* 161ch：BS-TBS */
     {   0, CHTYPE_SATELLITE, 2, 0x4012, "171"},  /* 171ch：BSテレ東 */
-    {   1, CHTYPE_SATELLITE, 0, 0x4030, "191"},  /* 191ch：WOWOW prime */
+    {   1, CHTYPE_SATELLITE, 0, 0x4030, "191"},  /* 191ch：WOWOWプライム */
     {   1, CHTYPE_SATELLITE, 1, 0x4031, "103"},  /* 103ch：NHK-BSプレミアム*/
     {   1, CHTYPE_SATELLITE, 2, 0x4632, "256"},  /* 256ch：ディズニー・チャンネル */
     {   2, CHTYPE_SATELLITE, 0, 0x4450, "192"},  /* 192ch：WOWOWライブ */
     {   2, CHTYPE_SATELLITE, 1, 0x4451, "193"},  /* 193ch：WOWOWシネマ */
-    {   4, CHTYPE_SATELLITE, 0, 0x4090, "211"},  /* 211ch：BS11デジタル */
-    {   4, CHTYPE_SATELLITE, 1, 0x4091, "200"},  /* 200ch：スター・チャンネル1 */
-    {   4, CHTYPE_SATELLITE, 2, 0x4092, "222"},  /* 222ch：TwellV */
-    {   5, CHTYPE_SATELLITE, 0, 0x46b0, "238"},  /* 238ch：FOX bs238 */
+    {   4, CHTYPE_SATELLITE, 0, 0x4090, "211"},  /* 211ch：BS11 */
+    {   4, CHTYPE_SATELLITE, 1, 0x4091, "200"},  /* 200ch：スターチャンネル1 */
+    {   4, CHTYPE_SATELLITE, 2, 0x4092, "222"},  /* 222ch：BS12 */
     {   5, CHTYPE_SATELLITE, 1, 0x46b1, "241"},  /* 241ch：BSスカパー！ */
     {   5, CHTYPE_SATELLITE, 2, 0x46b2, "231"},  /* 231ch：放送大学テレビ1 */
     {   5, CHTYPE_SATELLITE, 2, 0x46b2, "232"},  /* 232ch：放送大学テレビ2 */
-    {   5, CHTYPE_SATELLITE, 2, 0x46b2, "233"},  /* 233ch：放送大学テレビ3 */
-    {   5, CHTYPE_SATELLITE, 2, 0x46b2, "531"},  /* 531ch：放送大学ラジオ */
     {   6, CHTYPE_SATELLITE, 0, 0x40d0, "141"},  /* 141ch：BS日テレ */
     {   6, CHTYPE_SATELLITE, 1, 0x40d1, "181"},  /* 181ch：BSフジ */
     {   6, CHTYPE_SATELLITE, 1, 0x46d2, "236"},  /* 236ch：BSアニマックス */
     {   7, CHTYPE_SATELLITE, 0, 0x40f1, "101"},  /* 101ch：NHK-BS1 */
     {   7, CHTYPE_SATELLITE, 0, 0x40f1, "102"},  /* 102ch：NHK-BS1臨時 */
     {   7, CHTYPE_SATELLITE, 1, 0x40f2, "910"},  /* 910ch：ウェザーニュース(WNI)*/
-    {   7, CHTYPE_SATELLITE, 1, 0x40f2, "201"},  /* 201ch：スター・チャンネル2 */
-    {   7, CHTYPE_SATELLITE, 1, 0x40f2, "202"},  /* 202ch：スター・チャンネル3 */
+    {   7, CHTYPE_SATELLITE, 1, 0x40f2, "201"},  /* 201ch：スターチャンネル2 */
+    {   7, CHTYPE_SATELLITE, 1, 0x40f2, "202"},  /* 202ch：スターチャンネル3 */
     {   9, CHTYPE_SATELLITE, 0, 0x4730, "245"},  /* 245ch：J SPORTS 4 */
     {   9, CHTYPE_SATELLITE, 1, 0x4731, "242"},  /* 242ch：J SPORTS 1 */
     {   9, CHTYPE_SATELLITE, 2, 0x4732, "243"},  /* 243ch：J SPORTS 2 */
     {   9, CHTYPE_SATELLITE, 3, 0x4733, "244"},  /* 244ch：J SPORTS 3 */
-    {  10, CHTYPE_SATELLITE, 0, 0x4750, "252"},  /* 252ch：IMAGICA BS */
+    {  10, CHTYPE_SATELLITE, 0, 0x4750, "252"},  /* 252ch：WOWOWプラス */
     {  10, CHTYPE_SATELLITE, 2, 0x4752, "234"},  /* 234ch：グリーンチャンネル */
     {  11, CHTYPE_SATELLITE, 0, 0x4770, "251"},  /* 251ch：BS釣りビジョン */
     {  11, CHTYPE_SATELLITE, 1, 0x4771, "255"},  /* 255ch：日本映画専門チャンネル */
-    {  11, CHTYPE_SATELLITE, 2, 0x4772, "258"},  /* 258ch：D-Life */
     {  12, CHTYPE_SATELLITE, 0, 0x6020, "CS2"},  /* ND2：
                                           * 237ch：スター・チャンネル プラス
                                           * 239ch：日本映画専門チャンネルHD
